@@ -28,7 +28,7 @@ public class StartClientApplication {
 
            repository.save(new Client("Juan","Perez", 24,new GregorianCalendar(2000, Calendar.DECEMBER, 2)));
            repository.save(new Client("Jose","Ramirez",26, new GregorianCalendar(1988, Calendar.OCTOBER, 12)));
-           repository.save(new Client("Pedro","Juarez", 14,new GregorianCalendar(2010, Calendar.JANUARY, 22)));
+           repository.save(new Client("Pedro","Juarez", 14,new GregorianCalendar(2010, Calendar.JANUARY , 22)));
         };
     }
 
